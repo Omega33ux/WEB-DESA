@@ -45,38 +45,38 @@ def index(request):
             },
             {
                 "nama": "Aceng fahrudin",
-                "jabatan": "Kasi Pemerintahan",
-                "foto": "image/kasi1.jpeg"
+                "jabatan": "Kasi_Pemerintahan",
+                "foto": "image/kasi_pemerintahan.jpeg"
             },
             {
                 "nama": "M. Irfa farhan",
-                "jabatan": "kasi kesra",
-                "foto": "image/kaur.jpeg"
+                "jabatan": "Kasi_Kesra",
+                "foto": "image/kasi_kesra.jpeg"
             },
             {
                  "nama": "Toyib",
-                 "jabatan": "kasi pelayanan",
-                 "foto": "image/kaur.jpeg"
+                 "jabatan": "Kasi_Pelayanan",
+                 "foto": "image/kasi_pelayanan.jpeg"
             },
             {
                  "nama": "Nurliah",
-                 "jabatan": "Kaur Keuangan",
-                 "foto": "image/kaur.jpeg"
+                 "jabatan": "Kaur_Keuangan",
+                 "foto": "image/kaur_keuangan.jpeg"
             },
             {
                  "nama": "Rukman",
-                 "jabatan": "kaur perencanaan",
-                 "foto": "image/kaur.jpeg"
+                 "jabatan": "Kaur_Perencanaan",
+                 "foto": "image/kaur_perencanaan.jpeg"
             },
             {
                  "nama": "Zaenal ridwan nurhakim",
-                 "jabatan": "kadus 1",
-                 "foto": "image/kaur.jpeg"
+                 "jabatan": "kadus_1",
+                 "foto": "image/kadus_1.jpeg"
             },
             {
                  "nama": "Nurjaman",
-                 "jabatan": "kadus 2",
-                 "foto": "image/kaur.jpeg"
+                 "jabatan": "kadus_2",
+                 "foto": "image/kadus_2.jpeg"
             },
         ],
 
