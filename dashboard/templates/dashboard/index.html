@@ -1,0 +1,599 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Beranda{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+<section id="beranda" class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="container hero-content">
+
+        <h1>Selamat Datang di</h1>
+
+        <h2>Website Resmi Desa Sumur Bandung</h2>
+
+        <p>
+            Kecamatan Jayanti • Kabupaten Tangerang • Provinsi Banten
+        </p>
+
+        <a href="#profil" class="btn btn-success btn-lg mt-3">
+            Jelajahi Desa
+        </a>
+
+    </div>
+
+</section>
+
+<!-- STATISTIK -->
+<section class="statistics py-5">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-card">
+                    <h2>{{ penduduk }}</h2>
+                    <p>Jumlah Penduduk</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-card">
+                    <h2>{{ luas }}</h2>
+                    <p>Luas Wilayah</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-card">
+                    <h2>{{ rt }}/{{ rw }}</h2>
+                    <p>RT / RW</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-card">
+                    <h2>{{ umkm }}</h2>
+                    <p>UMKM</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROFIL -->
+<section id="profil" class="about py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <img src="{% static 'image/desa.png' %}"
+                     class="img-fluid rounded shadow"
+                     alt="Desa">
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <span class="badge bg-success mb-3">
+                    Profil Desa
+                </span>
+
+                <h2>{{ judul_profil }}</h2>
+
+                <p class="mt-3">
+
+                    {{ profil }}
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- VISI MISI -->
+<section id="visi" class="visi py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success">
+                Visi & Misi
+            </span>
+
+            <h2 class="mt-3">
+                Visi dan Misi Desa Sumur Bandung
+            </h2>
+
+        </div>
+
+        <div class="row">
+
+            <!-- VISI -->
+            <div class="col-lg-6 mb-4">
+
+                <div class="card shadow border-0 h-100">
+
+                    <div class="card-body p-4">
+
+                        <h3 class="text-success mb-4">
+                            🌟 Visi
+                        </h3>
+
+                        <p class="text-justify">
+                            {{ visi }}
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- MISI -->
+            <div class="col-lg-6 mb-4">
+
+                <div class="card shadow border-0 h-100">
+
+                    <div class="card-body p-4">
+
+                        <h3 class="text-success mb-4">
+                            🎯 Misi
+                        </h3>
+
+                        <ul>
+
+                            {% for m in misi %}
+
+                            <li class="mb-2">
+                                {{ m }}
+                            </li>
+
+                            {% endfor %}
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PERANGKAT DESA -->
+<section id="pemerintahan" class="team py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2>Perangkat Desa</h2>
+
+            <p>Pemerintah Desa Sumur Bandung</p>
+
+        </div>
+
+        <div class="row">
+
+            {% for p in perangkat %}
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="card border-0 shadow h-100">
+
+                    <img src="{% static p.foto %}"
+                         class="card-img-top"
+                         style="height:300px;object-fit:cover;">
+
+                    <div class="card-body text-center">
+
+                        <h5>{{ p.nama }}</h5>
+
+                        <p class="text-success">
+
+                            {{ p.jabatan }}
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- POTENSI DESA -->
+<section id="potensi" class="potensi py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success">
+
+                Potensi Desa
+
+            </span>
+
+            <h2 class="mt-3">
+
+                Potensi Unggulan Desa Sumur Bandung
+
+            </h2>
+
+            <p class="text-muted">
+
+                Berbagai potensi yang menjadi kekuatan ekonomi desa.
+
+            </p>
+
+        </div>
+
+        <div class="row">
+
+            {% for p in potensi %}
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card shadow border-0 h-100">
+
+                    <img src="{% static p.gambar %}"
+                         class="card-img-top"
+                         style="height:230px;object-fit:cover;">
+
+                    <div class="card-body">
+
+                        <h4>{{ p.judul }}</h4>
+
+                        <p>{{ p.deskripsi }}</p>
+
+                        <a href="{% url 'potensi_detail' p.slug %}" class="btn btn-success">
+                            Selengkapnya
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================== FASILITAS UMUM ===================== -->
+
+<section id="fasilitas" class="fasilitas py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success">
+                Fasilitas Umum
+            </span>
+
+            <h2 class="mt-3">
+                Fasilitas Umum Desa Sumur Bandung
+            </h2>
+
+            <p class="text-muted">
+                Berbagai fasilitas yang tersedia untuk menunjang aktivitas masyarakat.
+            </p>
+
+        </div>
+
+        <div class="row">
+
+            {% for f in fasilitas %}
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <div class="card border-0 shadow h-100">
+
+                    <img src="{% static f.gambar %}"
+                         class="card-img-top"
+                         style="height:230px;object-fit:cover;">
+
+                    <div class="card-body">
+
+                        <h5>{{ f.nama }}</h5>
+
+                        <p>{{ f.deskripsi }}</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- BERITA -->
+<section id="berita" class="berita py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <span class="badge bg-success">Berita Desa</span>
+            <h2 class="mt-3">Berita Terbaru</h2>
+        </div>
+
+        <div class="row">
+
+            {% for b in berita %}
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card shadow border-0 h-100">
+
+                    <img src="{% static b.gambar %}"
+                         class="card-img-top"
+                         style="height:230px;object-fit:cover;">
+
+                    <div class="card-body">
+
+                        <small class="text-muted">
+                            {{ b.tanggal }}
+                        </small>
+
+                        <h5 class="mt-2">
+                            {{ b.judul }}
+                        </h5>
+
+                        <p>
+                            {{ b.isi }}
+                        </p>
+
+                        <a href="{% url 'berita_detail' b.slug %}" class="btn btn-success btn-sm">
+                            Baca Selengkapnya
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PELAYANAN -->
+<section id="pelayanan" class="pelayanan py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success">
+                Pelayanan Desa
+            </span>
+
+            <h2 class="mt-3">
+                Pelayanan Administrasi Desa
+            </h2>
+
+            <p class="text-muted">
+                Berbagai pelayanan administrasi yang tersedia bagi masyarakat Desa Sumur Bandung.
+            </p>
+
+        </div>
+
+        <div class="row">
+
+            {% for p in pelayanan %}
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <div class="card shadow border-0 h-100">
+
+                    <div class="card-body text-center">
+
+                        <div style="font-size:60px;">
+                            {{ p.icon }}
+                        </div>
+
+                        <h5 class="mt-3">
+                            {{ p.nama }}
+                        </h5>
+
+                        <p>
+                            {{ p.deskripsi }}
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =======================
+KONTAK DESA
+======================== -->
+
+<section id="kontak" class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success">
+
+                Kontak Desa
+
+            </span>
+
+            <h2 class="mt-3">
+
+                Hubungi Kami
+
+            </h2>
+
+        </div>
+
+        <div class="row">
+
+            <!-- Informasi -->
+
+            <div class="col-lg-5">
+
+                <div class="card shadow border-0">
+
+                    <div class="card-body">
+
+                        <h4 class="mb-4">
+
+                            Pemerintah Desa Sumur Bandung
+
+                        </h4>
+
+                        <p>
+
+                            📍 {{ kontak.alamat }}
+
+                        </p>
+
+                        <p>
+
+                            ☎ {{ kontak.telepon }}
+
+                        </p>
+
+                        <p>
+
+                            ✉ {{ kontak.email }}
+
+                        </p>
+
+                        <p>
+
+                            🕘 {{ kontak.jam }}
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Google Maps -->
+
+            <div class="col-lg-7">
+
+                <div class="ratio ratio-16x9 shadow">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Desa+Sumur+Bandung+Jayanti+Tangerang&output=embed"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- LOKASI -->
+<section id="lokasi" class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success">
+                Lokasi Desa
+            </span>
+
+            <h2 class="mt-3">
+                Kantor Desa Sumur Bandung
+            </h2>
+
+            <p class="text-muted">
+                Kecamatan Jayanti, Kabupaten Tangerang
+            </p>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="ratio ratio-21x9 shadow rounded overflow-hidden">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Kantor+Desa+Sumur+Bandung+Jayanti+Tangerang&output=embed"
+                        style="border:0;"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+{% endblock %}
