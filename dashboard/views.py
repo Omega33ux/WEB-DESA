@@ -17,15 +17,16 @@ def index(request):
         # =========================
         # VISI & MISI
         # =========================
-        "visi": "Terwujudnya Desa Sumur Bandung yang maju, mandiri, sejahtera, religius, berbudaya, serta mampu mengembangkan potensi desa melalui pembangunan yang berkelanjutan.",
+        "visi": "Menjadikan Sumurbandung Sebagai Desa yang Mandiri berbasis pertanian, untuk mencapai masyarakat yang sehat,cerdas dan lebih sejahtera serta mewujudkan masyarakat yang maju di bidang ekonomi dan industri.",
 
         "misi": [
-            "Meningkatkan kualitas pelayanan publik yang cepat, transparan, dan akuntabel.",
-            "Mendorong pembangunan infrastruktur desa yang merata dan berkelanjutan.",
-            "Mengembangkan potensi pertanian, UMKM, dan ekonomi kreatif masyarakat.",
-            "Meningkatkan kualitas pendidikan, kesehatan, serta kesejahteraan masyarakat.",
-            "Melestarikan budaya, menjaga kerukunan, dan memperkuat semangat gotong royong masyarakat.",
-            "Mewujudkan tata kelola pemerintahan desa yang profesional, transparan, dan partisipatif."
+            "Meningkatkan Pembangunan infrastrukrur yang mendukung perekonomian desa, seperti jalan ,jembatan serta infrastruktur strategis lainnya.",
+            "Meningkatkan pembangunan di bidang kesehatan untuk mendorong derajat kesehatan masyarakat agar dapat bekerja lebih optimal dan memiliki harapan hidup yang lebih panjang.",
+            "Meningkatkan pembangunan di bidang pendidikan untuk mendorong peningkatan kualitas sumber daya manusia agar memiliki kecerdasan dan daya saing yang lebih baik.",
+            "Meningkatkan pembangunan ekonomi dengan mendorong semakin tumbuh dan berkembangnya pembangunan di bidang pertanian,industri dan perdagangan.",
+            "Menciptakan tatakelola pemerintah yang baik berdasarkan demokratisasi,transfaransi,berkeadilan dan mengutamakan pelayanan kepada masyarakat. .",
+            "Terbangunnya balai latihan kerja (BLK).",
+            "Bekerja sama dengan lembaga-lembaga terkait dalam rangka membangun desa sumurbandung.",
         ],
 
         # =========================
