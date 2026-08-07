@@ -5,8 +5,8 @@ def index(request):
 
     context = {
 
-        "penduduk": "6.408",
-        "luas": "331 Ha",
+        "penduduk": "8.796",
+        "luas": "369,00 Ha",
         "rt": 18,
         "rw": 4,
         "umkm": 96,
@@ -34,24 +34,49 @@ def index(request):
         # =========================
         "perangkat": [
             {
-                "nama": "Ahmad Hidayat",
+                "nama": "H.Ahmad Jajuli,S.E",
                 "jabatan": "Kepala Desa",
                 "foto": "image/kades.jpeg"
             },
             {
-                "nama": "Siti Aminah",
+                "nama": "Ahmad masyhudi",
                 "jabatan": "Sekretaris Desa",
                 "foto": "image/sekdes.jpeg"
             },
             {
-                "nama": "Rahmat",
+                "nama": "Aceng fahrudin",
                 "jabatan": "Kasi Pemerintahan",
                 "foto": "image/kasi1.jpeg"
             },
             {
-                "nama": "Dedi",
-                "jabatan": "Kaur Keuangan",
+                "nama": "M. Irfa farhan",
+                "jabatan": "kasi kesra",
                 "foto": "image/kaur.jpeg"
+            },
+            {
+                 "nama": "Toyib",
+                 "jabatan": "kasi pelayanan",
+                 "foto": "image/kaur.jpeg"
+            },
+            {
+                 "nama": "Nurliah",
+                 "jabatan": "Kaur Keuangan",
+                 "foto": "image/kaur.jpeg"
+            },
+            {
+                 "nama": "Rukman",
+                 "jabatan": "kaur perencanaan",
+                 "foto": "image/kaur.jpeg"
+            },
+            {
+                 "nama": "Zaenal ridwan nurhakim",
+                 "jabatan": "kadus 1",
+                 "foto": "image/kaur.jpeg"
+            },
+            {
+                 "nama": "Nurjaman",
+                 "jabatan": "kadus 2",
+                 "foto": "image/kaur.jpeg"
             },
         ],
 
