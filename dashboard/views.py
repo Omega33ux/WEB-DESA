@@ -45,41 +45,40 @@ def index(request):
             },
             {
                 "nama": "Aceng fahrudin",
-                "jabatan": "Kasi_Pemerintahan",
+                "jabatan": "Kasi Pemerintahan",
                 "foto": "image/kasi_pemerintahan.jpeg"
             },
             {
                 "nama": "M. Irfa farhan",
-                "jabatan": "Kasi_Kesra",
+                "jabatan": "Kasi Kesra",
                 "foto": "image/kasi_kesra.jpeg"
             },
             {
                  "nama": "Toyib",
-                 "jabatan": "Kasi_Pelayanan",
+                 "jabatan": "Kasi Pelayanan",
                  "foto": "image/kasi_pelayanan.jpeg"
             },
             {
                  "nama": "Nurliah",
-                 "jabatan": "Kaur_Keuangan",
+                 "jabatan": "Kaur Keuangan",
                  "foto": "image/kaur_keuangan.jpeg"
             },
             {
                  "nama": "Rukman",
-                 "jabatan": "Kaur_Perencanaan",
+                 "jabatan": "Kaur Perencanaan",
                  "foto": "image/kaur_perencanaan.jpeg"
             },
             {
                  "nama": "Zaenal ridwan nurhakim",
-                 "jabatan": "kadus_1",
-                 "foto": "image/kadus_1.jpeg"
+                 "jabatan": "kadus 1",
+                 "foto": "image/kadus 1.jpeg"
             },
             {
                  "nama": "Nurjaman",
-                 "jabatan": "kadus_2",
+                 "jabatan": "kadus 2",
                  "foto": "image/kadus_2.jpeg"
             },
         ],
-
        
         # =========================
         # POTENSI DESA
