@@ -132,42 +132,6 @@ def index(request):
 ],
 
         # =========================
-        # PELAYANAN DESA
-        # =========================
-        "pelayanan": [
-            {
-                "nama": "Surat Keterangan Domisili",
-                "icon": "📄",
-                "deskripsi": "Pelayanan pembuatan surat keterangan domisili bagi warga Desa Sumur Bandung."
-            },
-            {
-                "nama": "Surat Pengantar KTP",
-                "icon": "🪪",
-                "deskripsi": "Pelayanan pengantar pembuatan KTP baru maupun perubahan data."
-            },
-            {
-                "nama": "Surat Pengantar KK",
-                "icon": "👨‍👩‍👧‍👦",
-                "deskripsi": "Pelayanan pembuatan maupun perubahan Kartu Keluarga."
-            },
-            {
-                "nama": "Surat Keterangan Usaha",
-                "icon": "🏪",
-                "deskripsi": "Pelayanan surat keterangan usaha untuk pelaku UMKM."
-            },
-            {
-                "nama": "Surat Keterangan Tidak Mampu",
-                "icon": "🤝",
-                "deskripsi": "Pelayanan administrasi untuk keperluan bantuan sosial dan pendidikan."
-            },
-            {
-                "nama": "Pelayanan Pengaduan",
-                "icon": "📢",
-                "deskripsi": "Masyarakat dapat menyampaikan saran, kritik, dan pengaduan kepada pemerintah desa."
-            }
-        ],
-
-        # =========================
         # FASILITAS UMUM
         # =========================
         "fasilitas": [
