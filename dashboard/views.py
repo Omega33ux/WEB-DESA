@@ -294,10 +294,10 @@ Melalui kegiatan tersebut diharapkan masyarakat semakin peduli terhadap kebersih
 """
         },
 
-        "posyandu": {
-            "judul": "Pelayanan Posyandu",
-            "gambar": "image/berita2.jpeg",
-            "tanggal": "08 Agustus 2026",
+        "perlombaan-badminton": {
+            "judul": "Perlombaan Badminton",
+            "gambar": "image/berita4.jpeg",
+            "tanggal": "07 Agustus 2026",
             "isi": """
 Pelayanan Posyandu rutin dilaksanakan untuk balita, ibu hamil, dan lansia.
 
@@ -327,4 +327,4 @@ Program meliputi pendidikan, kesehatan, ekonomi, lingkungan serta digitalisasi d
         request,
         "dashboard/berita_detail.html",
         {"berita": berita}
-    )
+    ) 
