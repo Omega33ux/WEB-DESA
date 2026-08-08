@@ -281,38 +281,72 @@ def berita_detail(request, slug):
 
     data = {
 
-        "gotong-royong": {
-            "judul": "Kegiatan Gotong Royong Warga",
-            "gambar": "image/berita1.jpeg",
-            "tanggal": "10 Agustus 2026",
-            "isi": """
-Masyarakat Desa Sumur Bandung melaksanakan kegiatan gotong royong membersihkan lingkungan desa.
-
-Kegiatan ini bertujuan meningkatkan kebersihan lingkungan sekaligus mempererat rasa kebersamaan antarwarga.
-
-Melalui kegiatan tersebut diharapkan masyarakat semakin peduli terhadap kebersihan dan kelestarian lingkungan.
-"""
-        },
-
         "perlombaan-badminton": {
             "judul": "Perlombaan Badminton",
             "gambar": "image/berita4.jpeg",
             "tanggal": "07 Agustus 2026",
             "isi": """
-Pelayanan Posyandu rutin dilaksanakan untuk balita, ibu hamil, dan lansia.
+Desa Sumurbandung – Suasana penuh semangat dan antusiasme terlihat dalam kegiatan perlombaan badminton yang diselenggarakan di Desa Sumurbandung, Kecamatan Jayanti, Kabupaten Tangerang. Kegiatan ini menjadi salah satu ajang olahraga yang mempertemukan masyarakat sekaligus menjadi sarana untuk mempererat tali silaturahmi antarwarga.
 
-Kegiatan meliputi penimbangan balita, pemeriksaan kesehatan serta pemberian vitamin.
+Sejak pertandingan dimulai, para peserta tampak menunjukkan semangat dan kemampuan terbaiknya di lapangan. Setiap pertandingan berlangsung dengan cukup sengit, namun tetap mengedepankan nilai-nilai sportivitas, disiplin, dan sikap saling menghargai antar peserta.
+
+Tidak hanya peserta yang turut meramaikan kegiatan, masyarakat juga terlihat antusias memberikan dukungan kepada para pemain. Suasana semakin meriah ketika pertandingan berlangsung, dengan sorakan dan dukungan dari warga yang menyaksikan jalannya perlombaan.
+
+Perlombaan badminton ini tidak hanya bertujuan untuk mencari pemenang, tetapi juga menjadi wadah bagi masyarakat untuk menyalurkan minat dan bakat di bidang olahraga. Melalui kegiatan tersebut, warga dapat berinteraksi dan berkumpul dalam suasana yang positif dan penuh kekeluargaan.
+
+Selain meningkatkan aktivitas fisik, kegiatan olahraga seperti ini juga dapat menjadi media untuk membangun kebersamaan di tengah masyarakat. Pertandingan yang berlangsung secara sportif diharapkan mampu menumbuhkan rasa percaya diri, kedisiplinan, serta semangat kompetitif yang sehat di antara para peserta.
+
+Bagi mahasiswa KKM Universitas Bina Bangsa Kelompok 94, keterlibatan dalam kegiatan perlombaan badminton menjadi salah satu bentuk partisipasi dalam mendukung kegiatan positif masyarakat Desa Sumurbandung. Kehadiran mahasiswa diharapkan dapat membantu menciptakan kegiatan yang aktif, meriah, serta memberikan manfaat bagi masyarakat.
+
+Melalui perlombaan badminton ini, diharapkan semangat berolahraga dan kebersamaan masyarakat Desa Sumurbandung dapat terus berkembang. Menang atau kalah bukan menjadi tujuan utama, melainkan bagaimana setiap peserta mampu menjunjung tinggi sportivitas, menjaga persaudaraan, dan menikmati setiap proses pertandingan.
+
+Kegiatan ini sekaligus menjadi bukti bahwa olahraga dapat menjadi sarana sederhana untuk mempererat hubungan sosial masyarakat. Dengan semangat kebersamaan dan sportivitas, diharapkan kegiatan serupa dapat terus dilaksanakan dan menjadi bagian dari aktivitas positif masyarakat Desa Sumurbandung.
 """
         },
 
-        "kkm-uniba": {
-            "judul": "Mahasiswa KKM Universitas Bina Bangsa",
-            "gambar": "image/berita3.jpeg",
-            "tanggal": "05 Agustus 2026",
+        "perlombaan-catur": {
+            "judul": "Perlombaan Catur",
+            "gambar": "image/berita5.jpeg",
+            "tanggal": "08 Agustus 2026",
             "isi": """
-Mahasiswa KKM Universitas Bina Bangsa melaksanakan berbagai program pemberdayaan masyarakat.
+Desa Sumurbandung – Perlombaan catur menjadi salah satu kegiatan yang turut memeriahkan rangkaian perlombaan masyarakat di Desa Sumurbandung, Kecamatan Jayanti, Kabupaten Tangerang. Kegiatan ini berlangsung dengan penuh antusiasme dan diikuti oleh peserta dari berbagai kalangan masyarakat.
 
-Program meliputi pendidikan, kesehatan, ekonomi, lingkungan serta digitalisasi desa.
+Sejak pertandingan dimulai, para peserta terlihat serius dan fokus dalam menyusun strategi untuk menghadapi lawan masing-masing. Setiap langkah pada papan catur menjadi bagian penting dalam menentukan jalannya pertandingan. Suasana pertandingan berlangsung tenang, namun tetap dipenuhi dengan semangat kompetisi dan antusiasme para peserta maupun masyarakat yang menyaksikan.
+
+Perlombaan catur tidak hanya mengandalkan kemampuan bermain, tetapi juga membutuhkan konsentrasi, ketelitian, kesabaran, serta kemampuan dalam menentukan strategi. Para peserta dituntut untuk mampu berpikir beberapa langkah ke depan dan mengambil keputusan secara tepat dalam menghadapi berbagai situasi selama pertandingan.
+
+Selain menjadi ajang kompetisi, kegiatan ini juga menjadi sarana untuk mempererat silaturahmi dan kebersamaan antarwarga Desa Sumurbandung. Masyarakat dapat berkumpul, berinteraksi, serta memberikan dukungan kepada para peserta dalam suasana yang penuh kekeluargaan.
+
+Mahasiswa KKM Universitas Bina Bangsa Kelompok 94 turut berpartisipasi dalam mendukung pelaksanaan kegiatan tersebut. Keterlibatan mahasiswa menjadi salah satu bentuk kontribusi dalam menyukseskan kegiatan masyarakat sekaligus membangun hubungan yang lebih dekat dengan warga Desa Sumurbandung.
+
+Melalui perlombaan catur ini, diharapkan masyarakat dapat semakin mengenal dan mengembangkan potensi olahraga yang membutuhkan kecerdasan, konsentrasi, dan strategi. Kegiatan tersebut juga diharapkan dapat menumbuhkan semangat sportivitas serta menciptakan ruang interaksi positif bagi masyarakat.
+
+Perlombaan catur menjadi bukti bahwa kegiatan olahraga tidak selalu membutuhkan aktivitas fisik yang berat. Permainan strategi seperti catur juga mampu memberikan manfaat dalam melatih kemampuan berpikir sekaligus menjadi sarana hiburan dan mempererat kebersamaan.
+
+Dengan terlaksananya kegiatan ini, diharapkan semangat masyarakat untuk berpartisipasi dalam berbagai kegiatan positif dapat terus meningkat. Perlombaan catur bukan hanya tentang siapa yang menjadi pemenang, tetapi juga tentang membangun sportivitas, kebersamaan, dan semangat persaudaraan di tengah masyarakat Desa Sumurbandung.
+"""
+        },
+
+        "posyandu": {
+            "judul": "Posyandu dan Pelayanan Imunisasi Anak",
+            "gambar": "image/berita6.jpeg",
+            "tanggal": "04 Agustus 2026",
+            "isi": """
+Desa Sumurbandung – Kegiatan pelayanan kesehatan masyarakat kembali dilaksanakan melalui Posyandu di Desa Sumurbandung, Kecamatan Jayanti, Kabupaten Tangerang. Salah satu pelayanan yang diberikan dalam kegiatan tersebut adalah imunisasi bagi anak sebagai bagian dari upaya menjaga kesehatan dan mendukung tumbuh kembang anak sejak usia dini.
+
+Kegiatan imunisasi berlangsung dengan dukungan kader Posyandu dan tenaga kesehatan. Para orang tua turut membawa anak mereka untuk mendapatkan pelayanan kesehatan sesuai dengan kebutuhan dan jadwal imunisasi yang telah ditentukan. Kegiatan ini juga menjadi kesempatan bagi masyarakat untuk memperoleh informasi mengenai pentingnya menjaga kesehatan anak.
+
+Imunisasi merupakan salah satu langkah penting dalam upaya memberikan perlindungan kepada anak dari berbagai penyakit yang dapat dicegah melalui imunisasi. Dengan mengikuti jadwal imunisasi yang dianjurkan oleh tenaga kesehatan, orang tua turut berperan dalam menjaga kesehatan dan meningkatkan perlindungan anak.
+
+Selain pelayanan imunisasi, kegiatan Posyandu juga menjadi tempat untuk memantau pertumbuhan dan perkembangan anak. Kader bersama tenaga kesehatan melakukan pelayanan seperti penimbangan berat badan, pengukuran tinggi badan, serta pemantauan kondisi kesehatan anak. Hasil pemantauan tersebut dapat menjadi bahan perhatian bagi orang tua dalam mendukung pertumbuhan anak secara optimal.
+
+Antusiasme masyarakat terlihat dari kehadiran para orang tua yang membawa anaknya ke Posyandu. Kehadiran masyarakat dalam kegiatan tersebut menunjukkan adanya kesadaran akan pentingnya pemeriksaan kesehatan secara rutin, khususnya bagi bayi dan balita.
+
+Mahasiswa KKM Universitas Bina Bangsa Kelompok 94 turut berpartisipasi dalam mendukung kegiatan Posyandu di Desa Sumurbandung. Keterlibatan mahasiswa menjadi salah satu bentuk kepedulian terhadap kesehatan masyarakat sekaligus mendukung kelancaran kegiatan pelayanan kesehatan yang dilaksanakan bersama kader dan tenaga kesehatan.
+
+Melalui kegiatan Posyandu dan imunisasi, diharapkan kesadaran masyarakat terhadap pentingnya kesehatan ibu dan anak semakin meningkat. Peran aktif orang tua, kader Posyandu, tenaga kesehatan, serta masyarakat menjadi bagian penting dalam menciptakan lingkungan yang mendukung tumbuh kembang anak.
+
+Kegiatan ini diharapkan dapat terus dilaksanakan secara rutin dan mendapat dukungan dari seluruh masyarakat. Dengan memanfaatkan pelayanan Posyandu secara aktif, masyarakat Desa Sumurbandung dapat bersama-sama membangun kesadaran akan pentingnya menjaga kesehatan sejak usia dini demi menciptakan generasi yang sehat, aktif, dan memiliki tumbuh kembang yang optimal.
 """
         }
 
@@ -327,4 +361,4 @@ Program meliputi pendidikan, kesehatan, ekonomi, lingkungan serta digitalisasi d
         request,
         "dashboard/berita_detail.html",
         {"berita": berita}
-    ) 
+    )
