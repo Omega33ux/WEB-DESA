@@ -113,57 +113,21 @@ def index(request):
         "judul": "Perlombaan Badminton",
         "tanggal": "07 Agustus 2026",
         "gambar": "image/berita4.jpeg",
-        "isi": """
-Desa Sumurbandung – Suasana penuh semangat dan antusiasme terlihat dalam kegiatan perlombaan badminton yang diselenggarakan di Desa Sumurbandung, Kecamatan Jayanti, Kabupaten Tangerang.
-
-Sejak pertandingan dimulai, para peserta tampak menunjukkan semangat dan kemampuan terbaiknya di lapangan.
-
-Perlombaan badminton ini tidak hanya bertujuan untuk mencari pemenang, tetapi juga menjadi wadah bagi masyarakat untuk menyalurkan minat dan bakat di bidang olahraga.
-
-Bagi mahasiswa KKM Universitas Bina Bangsa Kelompok 94, keterlibatan dalam kegiatan perlombaan badminton menjadi salah satu bentuk partisipasi dalam mendukung kegiatan positif masyarakat Desa Sumurbandung.
-
-Melalui perlombaan badminton ini, diharapkan semangat berolahraga dan kebersamaan masyarakat Desa Sumurbandung dapat terus berkembang.
-"""
+        "isi": "Desa Sumurbandung – Suasana penuh semangat dan antusiasme terlihat dalam kegiatan perlombaan badminton."
     },
-
     {
         "slug": "perlombaan-catur",
         "judul": "Perlombaan Catur",
         "tanggal": "08 Agustus 2026",
         "gambar": "image/berita5.jpeg",
-        "isi": """
-Desa Sumurbandung – Perlombaan catur menjadi salah satu kegiatan yang turut memeriahkan rangkaian perlombaan masyarakat di Desa Sumurbandung, Kecamatan Jayanti, Kabupaten Tangerang.
-
-Sejak pertandingan dimulai, para peserta terlihat serius dan fokus dalam menyusun strategi untuk menghadapi lawan masing-masing.
-
-Perlombaan catur tidak hanya mengandalkan kemampuan bermain, tetapi juga membutuhkan konsentrasi, ketelitian, kesabaran, serta kemampuan dalam menentukan strategi.
-
-Selain menjadi ajang kompetisi, kegiatan ini juga menjadi sarana untuk mempererat silaturahmi dan kebersamaan antarwarga Desa Sumurbandung.
-
-Mahasiswa KKM Universitas Bina Bangsa Kelompok 94 turut berpartisipasi dalam mendukung pelaksanaan kegiatan tersebut.
-
-Dengan terlaksananya kegiatan ini, diharapkan semangat masyarakat untuk berpartisipasi dalam berbagai kegiatan positif dapat terus meningkat.
-"""
+        "isi": "Desa Sumurbandung – Perlombaan catur menjadi salah satu kegiatan yang turut memeriahkan rangkaian perlombaan masyarakat."
     },
-
     {
         "slug": "posyandu",
         "judul": "Posyandu dan Pelayanan Imunisasi Anak",
         "tanggal": "04 Agustus 2026",
         "gambar": "image/berita6.jpeg",
-        "isi": """
-Desa Sumurbandung – Kegiatan pelayanan kesehatan masyarakat kembali dilaksanakan melalui Posyandu di Desa Sumurbandung, Kecamatan Jayanti, Kabupaten Tangerang. Salah satu pelayanan yang diberikan dalam kegiatan tersebut adalah imunisasi bagi anak sebagai bagian dari upaya menjaga kesehatan dan mendukung tumbuh kembang anak sejak usia dini.
-
-Kegiatan imunisasi berlangsung dengan dukungan kader Posyandu dan tenaga kesehatan. Para orang tua turut membawa anak mereka untuk mendapatkan pelayanan kesehatan sesuai dengan kebutuhan dan jadwal imunisasi yang telah ditentukan.
-
-Selain pelayanan imunisasi, kegiatan Posyandu juga menjadi tempat untuk memantau pertumbuhan dan perkembangan anak.
-
-Antusiasme masyarakat terlihat dari kehadiran para orang tua yang membawa anaknya ke Posyandu.
-
-Mahasiswa KKM Universitas Bina Bangsa Kelompok 94 turut berpartisipasi dalam mendukung kegiatan Posyandu di Desa Sumurbandung.
-
-Melalui kegiatan Posyandu dan imunisasi, diharapkan kesadaran masyarakat terhadap pentingnya kesehatan ibu dan anak semakin meningkat.
-"""
+        "isi": "Desa Sumurbandung – Kegiatan pelayanan kesehatan masyarakat kembali dilaksanakan melalui Posyandu."
     },
 ],
 
