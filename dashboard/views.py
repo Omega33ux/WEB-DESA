@@ -168,6 +168,42 @@ def index(request):
         ],
 
         # =========================
+# PELAYANAN DESA
+# =========================
+"pelayanan": [
+    {
+        "icon": "📄",
+        "nama": "Surat Keterangan Domisili",
+        "deskripsi": "Pelayanan pembuatan surat keterangan domisili bagi masyarakat Desa Sumur Bandung."
+    },
+    {
+        "icon": "📋",
+        "nama": "Pengaduan Masyarakat",
+        "deskripsi": "Pelayanan penerimaan dan penanganan pengaduan masyarakat terkait berbagai permasalahan di Desa Sumur Bandung."
+    },
+    {
+        "icon": "👨‍👩‍👧",
+        "nama": "Surat Keterangan Keluarga",
+        "deskripsi": "Pelayanan administrasi terkait data dan keterangan keluarga masyarakat desa."
+    },
+    {
+        "icon": "🏠",
+        "nama": "Surat Pengantar",
+        "deskripsi": "Pelayanan surat pengantar untuk berbagai keperluan administrasi masyarakat."
+    },
+    {
+        "icon": "📝",
+        "nama": "Surat Keterangan Tidak Mampu",
+        "deskripsi": "Pelayanan surat keterangan tidak mampu bagi masyarakat yang memenuhi persyaratan."
+    },
+    {
+        "icon": "📑",
+        "nama": "Pelayanan Administrasi Desa",
+        "deskripsi": "Berbagai pelayanan administrasi untuk membantu kebutuhan masyarakat Desa Sumur Bandung."
+    },
+],
+
+        # =========================
         # KONTAK DESA
         # =========================
 
