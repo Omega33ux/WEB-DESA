@@ -7,8 +7,8 @@ def index(request):
 
         "penduduk": "8.796",
         "luas": "369,00 Ha",
-        "rt": 18,
-        "rw": 4,
+        "rt": 23,
+        "rw": 6,
         "umkm": 96,
 
                 "judul_profil": "Mengenal Desa Sumur Bandung",
