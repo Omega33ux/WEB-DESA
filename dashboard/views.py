@@ -29,56 +29,56 @@ def index(request):
             "Bekerja sama dengan lembaga-lembaga terkait dalam rangka membangun desa sumurbandung.",
         ],
 
-        # =========================
-        # PERANGKAT DESA
-        # =========================
-        "perangkat": [
-            {
-                "nama": "H.Ahmad Jajuli,S.E",
-                "jabatan": "Kepala Desa",
-                "foto": "image/kades.jpeg"
-            },
-            {
-                "nama": "Ahmad masyhudi",
-                "jabatan": "Sekretaris Desa",
-                "foto": "image/sekdes.jpeg"
-            },
-            {
-                "nama": "Aceng fahrudin",
-                "jabatan": "Kasi Pemerintahan",
-                "foto": "image/kasi_pemerintahan.jpeg"
-            },
-            {
-                "nama": "M. Irfa farhan",
-                "jabatan": "Kasi Kesra",
-                "foto": "image/kasi_kesra.jpeg"
-            },
-            {
-                 "nama": "Toyib",
-                 "jabatan": "Kasi Pelayanan",
-                 "foto": "image/kasi_pelayanan.jpeg"
-            },
-            {
-                 "nama": "Nurliah",
-                 "jabatan": "Kaur Keuangan",
-                 "foto": "image/kaur_keuangan.jpeg"
-            },
-            {
-                 "nama": "Rukman",
-                 "jabatan": "Kaur Perencanaan",
-                 "foto": "image/kaur_perencanaan.jpeg"
-            },
-            {
-                 "nama": "Zaenal ridwan nurhakim",
-                 "jabatan": "kadus 1",
-                 "foto": "image/kadus 1.jpeg"
-            },
-            {
-                 "nama": "Nurjaman",
-                 "jabatan": "kadus 2",
-                 "foto": "image/kadus_2.jpeg"
-            },
-        ],
+            # =========================
+            # PERANGKAT DESA
+            # =========================
+            "perangkat": [
+        {
+            "nama": "H.Ahmad Jajuli,S.E",
+            "jabatan": "Kepala Desa",
+            "foto": "image/kades.jpeg"
+        },
+        {
+            "nama": "Ahmad masyhudi",
+            "jabatan": "Sekretaris Desa",
+            "foto": "image/sekdes.jpeg"
+        },
+        {
+            "nama": "Aceng fahrudin",
+            "jabatan": "Kasi Pemerintahan",
+            "foto": "image/kasi_pemerintahan.jpeg"
+        },
+        {
+            "nama": "M. Irfa farhan",
+            "jabatan": "Kasi Kesra",
+            "foto": "image/kasi_kesra.jpeg"
+        },
+        {
+            "nama": "Toyib",
+            "jabatan": "Kasi Pelayanan",
+            "foto": "image/kasi_pelayanan.jpeg"
+        },
+        {
+            "nama": "Nurliah",
+            "jabatan": "Kaur Keuangan",
+            "foto": "image/kaur_keuangan.jpeg"
+        },
+        {
+            "nama": "Rukman",
+            "jabatan": "Kaur Perencanaan",
+            "foto": "image/kaur_perencanaan.jpeg"
+        },
+        {
+            "nama": "Zaenal ridwan nurhakim",
+            "jabatan": "Kepala Dusun 1",
+            "foto": "image/kadus_1.jpeg"
+        },
+        {
+            "nama": "Nurjaman",
+            "jabatan": "Kepala Dusun 2",
+            "foto": "image/kadus_2.jpeg"
+        },
+    ],
        
         # =========================
         # POTENSI DESA
