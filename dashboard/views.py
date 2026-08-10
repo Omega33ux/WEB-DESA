@@ -135,71 +135,35 @@ def index(request):
         # FASILITAS UMUM
         # =========================
         "fasilitas": [
-            {
-                "nama": "Kantor Desa",
-                "gambar": "image/kantordesa.jpg",
-                "deskripsi": "Pusat pelayanan administrasi dan pemerintahan Desa Sumur Bandung."
-            },
-            {
-                "nama": "Masjid",
-                "gambar": "image/masjid.webp",
-                "deskripsi": "Sarana ibadah masyarakat yang digunakan untuk kegiatan keagamaan."
-            },
-            {
-                "nama": "Sekolah",
-                "gambar": "image/sekolah.avif",
-                "deskripsi": "Tersedia PAUD, SD, dan lembaga pendidikan lainnya untuk menunjang pendidikan masyarakat."
-            },
-            {
-                "nama": "Posyandu",
-                "gambar": "image/posyandu.jpeg",
-                "deskripsi": "Fasilitas pelayanan kesehatan bagi balita, ibu hamil, dan lansia."
-            },
-            {
-                "nama": "Lapangan",
-                "gambar": "image/lapangan.webp",
-                "deskripsi": "Digunakan untuk kegiatan olahraga, upacara, dan kegiatan masyarakat."
-            },
-            {
-                "nama": "Jalan Desa",
-                "gambar": "image/jalan.jpg",
-                "deskripsi": "Akses jalan yang menghubungkan antar wilayah di Desa Sumur Bandung."
-            }
-        ],
-
-        # =========================
-# PELAYANAN DESA
-# =========================
-"pelayanan": [
     {
-        "icon": "📄",
-        "nama": "Surat Keterangan Domisili",
-        "deskripsi": "Pelayanan pembuatan surat keterangan domisili bagi masyarakat Desa Sumur Bandung."
+        "nama": "Kantor Desa",
+        "gambar": "image/kantordesa2.jpeg",
+        "deskripsi": "Kantor Desa Sumur Bandung sebagai pusat pelayanan administrasi dan pemerintahan desa."
     },
     {
-        "icon": "📋",
-        "nama": "Pengaduan Masyarakat",
-        "deskripsi": "Pelayanan penerimaan dan penanganan pengaduan masyarakat terkait berbagai permasalahan di Desa Sumur Bandung."
+        "nama": "Masjid",
+        "gambar": "image/masjid2.jpeg",
+        "deskripsi": "Masjid sebagai sarana ibadah dan kegiatan keagamaan masyarakat Desa Sumur Bandung."
     },
     {
-        "icon": "👨‍👩‍👧",
-        "nama": "Surat Keterangan Keluarga",
-        "deskripsi": "Pelayanan administrasi terkait data dan keterangan keluarga masyarakat desa."
+        "nama": "Sekolah",
+        "gambar": "image/sekolah2.jpeg",
+        "deskripsi": "Fasilitas pendidikan yang mendukung kegiatan belajar dan perkembangan pendidikan masyarakat."
     },
     {
-        "icon": "🏠",
-        "nama": "Surat Pengantar",
-        "deskripsi": "Pelayanan surat pengantar untuk berbagai keperluan administrasi masyarakat."
+        "nama": "Posyandu",
+        "gambar": "image/posyandu2.jpeg",
+        "deskripsi": "Fasilitas pelayanan kesehatan masyarakat, khususnya untuk ibu dan anak."
     },
     {
-        "icon": "📝",
-        "nama": "Surat Keterangan Tidak Mampu",
-        "deskripsi": "Pelayanan surat keterangan tidak mampu bagi masyarakat yang memenuhi persyaratan."
+        "nama": "Lapangan",
+        "gambar": "image/lapangan2.jpeg",
+        "deskripsi": "Lapangan yang dapat dimanfaatkan masyarakat untuk kegiatan olahraga dan aktivitas bersama."
     },
     {
-        "icon": "📑",
-        "nama": "Pelayanan Administrasi Desa",
-        "deskripsi": "Berbagai pelayanan administrasi untuk membantu kebutuhan masyarakat Desa Sumur Bandung."
+        "nama": "Jalan",
+        "gambar": "image/jalan2.jpeg",
+        "deskripsi": "Jaringan jalan yang mendukung mobilitas dan aktivitas masyarakat Desa Sumur Bandung."
     },
 ],
 
