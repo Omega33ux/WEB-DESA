@@ -87,19 +87,19 @@ def index(request):
             {
                 "slug": "pertanian",
                 "judul": "Pertanian",
-                "gambar": "image/pertanian.jpeg",
+                "gambar": "image/pertanian2.jpeg",
                 "deskripsi": "Desa Sumur Bandung memiliki lahan pertanian yang menjadi sumber mata pencaharian masyarakat."
             },
             {
                 "slug": "umkm",
                 "judul": "UMKM",
-                "gambar": "image/umkm.png",
+                "gambar": "image/umkm2.png",
                 "deskripsi": "Berbagai usaha mikro berkembang mulai dari kuliner, kerajinan hingga perdagangan."
             },
             {
                 "slug": "industri",
                 "judul": "Industri",
-                "gambar": "image/industri.jpeg",
+                "gambar": "image/industri2.jpeg",
                 "deskripsi": "Didukung kawasan industri di sekitar Desa Sumur Bandung sehingga membuka banyak lapangan pekerjaan."
             },
         ],
