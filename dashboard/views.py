@@ -93,7 +93,7 @@ def index(request):
             {
                 "slug": "umkm",
                 "judul": "UMKM",
-                "gambar": "image/umkm2.png",
+                "gambar": "image/umkm2.jpeg",
                 "deskripsi": "Berbagai usaha mikro berkembang mulai dari kuliner, kerajinan hingga perdagangan."
             },
             {
