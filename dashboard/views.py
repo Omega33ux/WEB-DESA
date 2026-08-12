@@ -7,7 +7,7 @@ def index(request):
 
         "penduduk": "8.796",
         "luas": "369,00 Ha",
-        "rt": 23,
+        "rt": 16,
         "rw": 6,
         "umkm": 96,
 
