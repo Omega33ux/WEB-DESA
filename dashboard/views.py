@@ -175,9 +175,7 @@ def index(request):
 
             "alamat": "Jl. Raya Sumur Bandung, Kecamatan Jayanti, Kabupaten Tangerang",
 
-            "telepon": "(021) 12345678",
-
-            "email": "desasumurbandung@gmail.com",
+            "email": "Pemerintahdesasumurbandung@gmail.com",
 
             "jam": "Senin - Jumat : 08.00 - 15.00 WIB"
 
