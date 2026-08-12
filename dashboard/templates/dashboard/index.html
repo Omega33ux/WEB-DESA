@@ -50,12 +50,14 @@
             </div>
 
             <!-- RT / RW -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="stat-card">
-                    <h2>{{ rt }}/{{ rw }}</h2>
-                    <p>RT / RW</p>
-                </div>
-            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+    <a href="{% url 'rt_rw' %}" style="text-decoration: none; color: inherit;">
+        <div class="stat-card" style="cursor: pointer;">
+            <h2>{{ rt }}/{{ rw }}</h2>
+            <p>RT / RW</p>
+        </div>
+    </a>
+</div>
 
         </div>
     </div>

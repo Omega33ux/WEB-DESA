@@ -326,3 +326,134 @@ Kegiatan ini diharapkan dapat terus dilaksanakan secara rutin dan mendapat dukun
         "dashboard/berita_detail.html",
         {"berita": berita}
     )
+
+def rt_rw(request):
+    data_rt = [
+        {
+            "nomor": "RT 001/001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rt01_01.jpeg",
+        },
+        {
+            "nomor": "RT 002/001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rt02_01.jpeg",
+        },
+        {
+            "nomor": "RT 003/001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rt03_01.jpeg",
+        },
+        {
+            "nomor": "RT 004/001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rt04_01.jpeg",
+        },
+        {
+            "nomor": "RT 005/001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rt05_01.jpeg",
+        },
+        {
+            "nomor": "RT 006/001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rt06_01.jpeg",
+        },
+        {
+            "nomor": "RT 007/002",
+            "kampung": "Kp. Saradan",
+            "foto": "image/rt07_02.jpeg",
+        },
+        {
+            "nomor": "RT 008/002",
+            "kampung": "Kp. Saradan",
+            "foto": None,
+        },
+        {
+            "nomor": "RT 009/006",
+            "kampung": "Kp. Sempur",
+            "foto": "image/rt09_06.jpeg",
+        },
+        {
+            "nomor": "RT 010/004",
+            "kampung": "Kp. Bendung",
+            "foto": "image/rt10_04.jpeg",
+        },
+        {
+            "nomor": "RT 011/006",
+            "kampung": "Kp. Kunir",
+            "foto": "image/rt11_06.jpeg",
+        },
+        {
+            "nomor": "RT 012/003",
+            "kampung": "Kp. Kramat",
+            "foto": "image/rt12_03.jpeg",
+        },
+        {
+            "nomor": "RT 013/003",
+            "kampung": "Kp. Kramat",
+            "foto": "image/rt13_03.jpeg",
+        },
+        {
+            "nomor": "RT 014/004",
+            "kampung": "Kp. Bendung",
+            "foto": None,
+        },
+        {
+            "nomor": "RT 015/002",
+            "kampung": "Kp. Saradan",
+            "foto": "image/rt15_02.jpeg",
+        },
+        {
+            "nomor": "RT 016/005",
+            "kampung": "Kp. Kunir",
+            "foto": "image/rt16_05.jpeg",
+        },
+        {
+            "nomor": "RT 017/006",
+            "kampung": "Kp. Sempur",
+            "foto": None,
+        },
+    ]
+
+    data_rw = [
+        {
+            "nomor": "RW 001",
+            "kampung": "Kp. Sumur Bandung",
+            "foto": "image/rw001.jpeg",
+        },
+        {
+            "nomor": "RW 002",
+            "kampung": "Kp. Saradan",
+            "foto": "image/rw02.jpeg",
+        },
+        {
+            "nomor": "RW 003",
+            "kampung": "Kp. Kramat",
+            "foto": "image/rw03.jpeg",
+        },
+        {
+            "nomor": "RW 004",
+            "kampung": "Kp. Bendung",
+            "foto": "image/rw04.jpeg",
+        },
+        {
+            "nomor": "RW 005",
+            "kampung": "Kp. Kunir",
+            "foto": None,
+        },
+        {
+            "nomor": "RW 006",
+            "kampung": "Kp. Sempur",
+            "foto": "image/rw06.jpeg",
+        },
+    ]
+
+    return render(
+        request,
+        "dashboard/rt_rw.html",
+        {
+            "data_rt": data_rt,
+            "data_rw": data_rw,
+        }
+    )

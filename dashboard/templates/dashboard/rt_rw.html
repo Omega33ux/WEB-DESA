@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Data RT / RW Desa Sumur Bandung{% endblock %}
+
+{% block content %}
+
+<section class="py-5">
+    <div class="container">
+
+        <!-- JUDUL -->
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Data RT / RW</h1>
+            <p class="text-muted">
+                Data wilayah RT dan RW Desa Sumur Bandung
+            </p>
+        </div>
+
+        <!-- DATA RT -->
+        <div class="mb-5">
+            <h2 class="fw-bold mb-4">Data RT</h2>
+
+            <div class="row">
+
+                {% for rt in data_rt %}
+                <div class="col-lg-4 col-md-6 mb-4">
+
+                    <div class="card h-100 shadow-sm border-0">
+
+                        {% if rt.foto %}
+                            <img
+                                src="{% static rt.foto %}"
+                                class="card-img-top"
+                                alt="{{ rt.nomor }}"
+                                style="height: 230px; object-fit: cover;"
+                            >
+                        {% else %}
+                            <div
+                                class="d-flex align-items-center justify-content-center bg-light text-muted"
+                                style="height: 230px;"
+                            >
+                                <div class="text-center">
+                                    <div style="font-size: 45px;">📷</div>
+                                    <p class="mb-0">Foto belum tersedia</p>
+                                </div>
+                            </div>
+                        {% endif %}
+
+                        <div class="card-body text-center">
+                            <h5 class="fw-bold">{{ rt.nomor }}</h5>
+                            <p class="text-muted mb-0">
+                                {{ rt.kampung }}
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+
+        <!-- DATA RW -->
+        <div>
+            <h2 class="fw-bold mb-4">Data RW</h2>
+
+            <div class="row">
+
+                {% for rw in data_rw %}
+                <div class="col-lg-4 col-md-6 mb-4">
+
+                    <div class="card h-100 shadow-sm border-0">
+
+                        {% if rw.foto %}
+                            <img
+                                src="{% static rw.foto %}"
+                                class="card-img-top"
+                                alt="{{ rw.nomor }}"
+                                style="height: 230px; object-fit: cover;"
+                            >
+                        {% else %}
+                            <div
+                                class="d-flex align-items-center justify-content-center bg-light text-muted"
+                                style="height: 230px;"
+                            >
+                                <div class="text-center">
+                                    <div style="font-size: 45px;">📷</div>
+                                    <p class="mb-0">Foto belum tersedia</p>
+                                </div>
+                            </div>
+                        {% endif %}
+
+                        <div class="card-body text-center">
+                            <h5 class="fw-bold">{{ rw.nomor }}</h5>
+                            <p class="text-muted mb-0">
+                                {{ rw.kampung }}
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}
