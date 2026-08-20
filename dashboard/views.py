@@ -131,6 +131,33 @@ def index(request):
     },
 ],
 
+    # =========================
+    # PELAYANAN DESA
+    # =========================
+
+    "pelayanan": [
+        {
+            "icon": "📄",
+            "nama": "Surat Keterangan Domisili",
+            "deskripsi": "Pelayanan administrasi bagi masyarakat yang membutuhkan surat keterangan domisili."
+        },
+        {
+            "icon": "🏠",
+            "nama": "Surat Keterangan Tidak Mampu",
+            "deskripsi": "Pelayanan administrasi bagi masyarakat yang membutuhkan surat keterangan tidak mampu."
+        },
+        {
+            "icon": "💼",
+            "nama": "Surat Keterangan Usaha",
+            "deskripsi": "Pelayanan administrasi bagi masyarakat yang membutuhkan surat keterangan usaha."
+        },
+        {
+            "icon": "📋",
+            "nama": "Pengaduan",
+            "deskripsi": "Layanan bagi masyarakat untuk menyampaikan pengaduan, keluhan, maupun laporan terkait pelayanan dan kondisi di lingkungan desa."
+        },
+    ],
+
         # =========================
         # FASILITAS UMUM
         # =========================
@@ -184,7 +211,7 @@ def index(request):
         
 
     }
-
+    
     return render(request, "dashboard/index.html", context)
 
 # =========================
